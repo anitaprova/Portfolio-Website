@@ -1,0 +1,166 @@
+body{
+	overflow-x: hidden;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url(https://img.goodfon.com/original/1921x1081/a/cd/abstraktsiia-linii-background-geometriia.jpg);
+	color: white;
+}
+
+a { color: inherit; } 
+
+.inner{
+	padding: 5%;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: white;
+}
+
+.content{
+	text-align: center;
+	padding: 10%;
+	border-radius: 3%;
+	text-transform: uppercase;
+	font-family: "Source Sans 3", sans-serif;
+  line-height: 1.5;
+	letter-spacing: 0.2rem;
+}
+
+#header li{
+	list-style-type: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+
+	border-radius: 2%;
+}
+
+#header li:hover{
+	background-color: rgba(62, 19, 154, 0.677);
+}
+
+#header a{
+	text-decoration: none;
+	color: white;
+}
+
+#header ul{
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+}
+
+.major{
+	text-transform: uppercase;
+	line-height: 1.5;
+	letter-spacing: 0.2rem;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 0.2rem;
+}
+
+#resume{
+	display: none;
+	visibility: hidden;
+
+	padding: 3%;
+	border-radius: 0.5%;
+	font-family: "Source Sans 3", sans-serif;
+	background-color: rgb(25, 4, 71);
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 40%; 
+}
+
+#resume a {
+	color: white;
+}
+
+#project{
+	display: none;
+	visibility: hidden;
+
+	padding: 3%;
+	border-radius: 0.5%;
+	font-family: "Source Sans 3", sans-serif;
+	background-color: rgb(25, 4, 71);
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 40%; 
+}
+
+#about{
+	display: none;
+	visibility: hidden;
+
+	padding: 3%;
+	border-radius: 0.5%;
+	font-family: "Source Sans 3", sans-serif;
+	background-color: rgb(25, 4, 71);
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 40%;
+	text-align: center; 
+}
+
+#about p {
+	text-align: left;
+}
+
+.avatar{
+	vertical-align: middle;
+  width: 250;
+  height: 250;
+  border-radius: 50%;
+	border-style: solid;
+	padding: 1%;
+}
+
+#contact{
+	display: none;
+	visibility: hidden;
+
+	padding: 3%;
+	border-radius: 0.5%;
+	font-family: "Source Sans 3", sans-serif;
+	background-color: rgb(25, 4, 71);
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 40%; 
+}
+
+#contact li{
+	list-style-type: none;
+	font-size: 250%;
+}
+
+#contact ul{
+	display: flex;
+	justify-content: center;
+	column-gap: 15px;
+	padding-top: 3%;
+}
+
+.cancel{
+	position: absolute;
+	right: 5%;
+	font-size: large;
+}
+
+footer{
+	font-size: x-small;
+	position: fixed;
+  bottom: 0;
+}
