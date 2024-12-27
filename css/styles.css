@@ -153,9 +153,13 @@ a {
   margin: auto;
   position: relative;
   top: 50%;
-  width: 40%;
+  width: 45%;
 
 	animation: fade 1s forwards;
+}
+
+img{
+  width: 100%;
 }
 
 #about {
